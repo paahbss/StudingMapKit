@@ -12,6 +12,7 @@
 		2F0B0DB7216E17E700A13805 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F0B0DB5216E17E700A13805 /* Main.storyboard */; };
 		2F0B0DB9216E17E800A13805 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F0B0DB8216E17E800A13805 /* Assets.xcassets */; };
 		2F0B0DBC216E17E800A13805 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F0B0DBA216E17E800A13805 /* LaunchScreen.storyboard */; };
+		2F0B0DC5216E1D9800A13805 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F0B0DC4216E1D9800A13805 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2F0B0DB8216E17E800A13805 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F0B0DBB216E17E800A13805 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F0B0DBD216E17E800A13805 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F0B0DC4216E1D9800A13805 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F0B0DC5216E1D9800A13805 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				2F0B0DB0216E17E700A13805 /* StudingMapKit */,
 				2F0B0DAF216E17E700A13805 /* Products */,
+				2F0B0DC3216E1D9800A13805 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				2F0B0DBD216E17E800A13805 /* Info.plist */,
 			);
 			path = StudingMapKit;
+			sourceTree = "<group>";
+		};
+		2F0B0DC3216E1D9800A13805 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F0B0DC4216E1D9800A13805 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MQ922JMCL6;
 				INFOPLIST_FILE = StudingMapKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +316,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MQ922JMCL6;
 				INFOPLIST_FILE = StudingMapKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
